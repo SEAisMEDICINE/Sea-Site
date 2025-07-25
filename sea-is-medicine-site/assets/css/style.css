@@ -1,0 +1,39 @@
+
+body {
+  background-color: #fcfdfd;
+  font-family: "Futura", "Helvetica Now", sans-serif;
+  color: #414242;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #2be6f0;
+  color: #414242;
+  padding: 2em;
+  text-align: center;
+}
+footer {
+  background-color: #e2e6e6;
+  padding: 1em;
+  text-align: center;
+}
+a {
+  color: #0732ed;
+  text-decoration: none;
+}
+a:hover {
+  color: #f44ee8;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+}
+.links a {
+  text-align: center;
+}
+.links img {
+  max-width: 200px;
+  height: auto;
+  border: 2px solid #c4efeb;
+}
